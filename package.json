@@ -1,0 +1,26 @@
+{
+  "name": "hypercore-systems",
+  "version": "1.0.0",
+  "description": "Zero‑dependency, lock‑free, high‑throughput core primitives for Node.js",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "systems",
+    "high-performance",
+    "concurrency",
+    "low-latency",
+    "ring-buffer",
+    "protocol-parser",
+    "append-only-log",
+    "rate-limiter"
+  ],
+  "author": "suman-mehta",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
